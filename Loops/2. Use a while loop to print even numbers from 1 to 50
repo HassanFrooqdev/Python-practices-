@@ -1,0 +1,7 @@
+def print_even_numbers():
+    num = 2
+    while num <= 50:
+        print(num)
+        num += 2
+
+print_even_numbers()

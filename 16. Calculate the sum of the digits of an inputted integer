@@ -1,0 +1,6 @@
+def sum_of_digits():
+    number = input("Enter an integer: ")
+    digit_sum = sum(int(digit) for digit in number)
+    print("Sum of the digits:", digit_sum)
+
+sum_of_digits()

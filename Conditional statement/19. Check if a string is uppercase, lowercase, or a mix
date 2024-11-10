@@ -1,0 +1,11 @@
+def check_string_case():
+    user_string = input("Enter a string: ")
+    
+    if user_string.isupper():
+        print("The string is uppercase.")
+    elif user_string.islower():
+        print("The string is lowercase.")
+    else:
+        print("The string is a mix of uppercase and lowercase.")
+
+check_string_case()

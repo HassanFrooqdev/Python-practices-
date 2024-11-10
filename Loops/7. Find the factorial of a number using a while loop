@@ -1,0 +1,12 @@
+def factorial():
+    number = int(input("Enter a number: "))
+    result = 1
+    counter = 1
+    
+    while counter <= number:
+        result *= counter
+        counter += 1
+    
+    print(f"Factorial of {number} is {result}")
+
+factorial()

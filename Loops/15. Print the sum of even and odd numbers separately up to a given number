@@ -1,0 +1,6 @@
+def sum_even_odd():
+    limit = int(input("Enter a number: "))
+    even_sum = 0
+    odd_sum = 0
+    
+    for i in

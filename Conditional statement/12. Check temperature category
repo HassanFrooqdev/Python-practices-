@@ -1,0 +1,9 @@
+# 12. Check temperature category
+def temperature_category():
+    temp = float(input("Enter temperature in Celsius: "))
+    if temp <= 0:
+        print("It's freezing.")
+    elif temp <= 25:
+        print("It's moderate.")
+    else:
+        print("It's hot.")

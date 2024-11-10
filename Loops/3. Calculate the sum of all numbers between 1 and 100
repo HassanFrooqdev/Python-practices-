@@ -1,0 +1,5 @@
+def sum_numbers_1_to_100():
+    total = sum(range(1, 101))
+    print("Sum of numbers from 1 to 100 is:", total)
+
+sum_numbers_1_to_100()

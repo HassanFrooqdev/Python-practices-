@@ -1,0 +1,11 @@
+def check_range():
+    number = float(input("Enter a number: "))
+    lower_bound = float(input("Enter lower bound: "))
+    upper_bound = float(input("Enter upper bound: "))
+
+    if lower_bound <= number <= upper_bound:
+        print(f"{number} is within the range.")
+    else:
+        print(f"{number} is not within the range.")
+
+check_range()

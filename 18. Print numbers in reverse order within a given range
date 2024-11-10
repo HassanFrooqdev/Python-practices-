@@ -1,0 +1,8 @@
+def print_reverse_range():
+    start = int(input("Enter the start of the range: "))
+    end = int(input("Enter the end of the range: "))
+    
+    for i in range(end, start - 1, -1):
+        print(i)
+
+print_reverse_range()
