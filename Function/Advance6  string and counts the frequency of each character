@@ -1,0 +1,19 @@
+# 6. Create a function that takes a string and counts the frequency of each character.
+def count_char_frequency(s):
+    # Initialize an empty dictionary to store character frequencies
+    frequency = {}
+    
+    # Iterate through each character in the string
+    for char in s:
+        if char in frequency:
+            frequency[char] += 1
+        else:
+            frequency[char] = 1
+    
+    return frequency
+
+# Example usage
+input_string = input("Enter a string: ")
+
+# Call the function and print the result
+print("The frequency of each character is:", count_char_frequency(input_string))

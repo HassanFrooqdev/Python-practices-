@@ -1,0 +1,19 @@
+# Real-world Scenario 1: Write a function that takes a list of employee salaries and calculates the average salary.
+def calculate_average_salary(salaries):
+    # Check if the list is empty
+    if not salaries:
+        return 0
+    
+    # Calculate the sum of all salaries
+    total_salary = sum(salaries)
+    
+    # Calculate the average salary
+    average_salary = total_salary / len(salaries)
+    
+    return average_salary
+
+# Example usage
+employee_salaries = [35000, 42000, 47000, 50000, 52000, 45000]
+
+# Call the function and print the result
+print("The average salary of employees is:", calculate_average_salary(employee_salaries))
