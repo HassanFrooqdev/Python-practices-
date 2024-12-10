@@ -1,0 +1,20 @@
+# 1. Iterate through the dictionary student and print all keys.
+print("Keys in student dictionary:")
+for key in student:
+    print(key)
+
+# 2. Iterate through the dictionary student and print all values.
+print("Values in student dictionary:")
+for value in student.values():
+    print(value)
+
+# 3. Iterate through the dictionary student and print all key-value pairs in the format key: value.
+print("Key-Value pairs in student dictionary:")
+for key, value in student.items():
+    print(f"{key}: {value}")
+
+# 4. Check if the key grade exists in the student dictionary and print True or False.
+print("Does 'grade' key exist?", 'grade' in student)
+
+# 5. Count the total number of keys in the student dictionary.
+print("Total number of keys in student dictionary:", len(student))

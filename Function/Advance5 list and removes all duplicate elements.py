@@ -5,7 +5,5 @@ def remove_duplicates(lst):
         if item not in unique_list:
             unique_list.append(item)
     return unique_list
-
-# Example usage
 example_list = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7]
-print("The list with duplicates removed is:", remove_duplicates(example_list))
+print("The list with duplicates removed is: ", remove_duplicates(example_list))

@@ -1,0 +1,22 @@
+# 1. Create a dictionary student with keys: name, age, and grade.
+student = {
+    'name': 'Hassan',
+    'age': 19,
+    'grade': 'A'
+}
+print("Student Dictionary:", student)
+
+# 2. Access the value of the key grade in the student dictionary.
+print("Grade:", student['grade'])
+
+# 3. Add a new key city to the student dictionary and set its value to "New York".
+student['city'] = 'New York'
+print("Updated Student Dictionary:", student)
+
+# 4. Update the value of the age key in the student dictionary to 20.
+student['age'] = 20
+print("Updated Age:", student['age'])
+
+# 5. Remove the key city from the student dictionary.
+del student['city']
+print("Student Dictionary after removing city:", student)

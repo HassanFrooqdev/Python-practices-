@@ -1,0 +1,28 @@
+# 1. Create a nested dictionary to represent a person with name, age, and address.
+nested_dict = {
+    'Person': {
+        'Name': 'Hassan',
+        'Age': 30,
+        'Address': {
+            'Street': '12 Santpura',
+            'City': 'Faisalabad'
+        }
+    }
+}
+print("Nested Dictionary:", nested_dict)
+
+# 2. Access the value of the City key in the nested dictionary.
+print("City:", nested_dict['Person']['Address']['City'])
+
+# 3. Add a new key Phone to the nested dictionary with the value "123-456-7890".
+nested_dict['Person']['Phone'] = '123-456-7890'
+print("Updated Nested Dictionary:", nested_dict)
+
+# 4. Delete the Address key from the nested dictionary.
+del nested_dict['Person']['Address']
+print("Nested Dictionary after removing Address:", nested_dict)
+
+# 5. Iterate through all the keys in the outermost level of the nested dictionary and print them.
+print("Keys in the outermost level of the nested dictionary:")
+for key in nested_dict['Person']:
+    print(key)
